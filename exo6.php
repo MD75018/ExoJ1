@@ -1,8 +1,8 @@
 <?php
 $annee = readline('entrez une année : ');
-$bis = $annee % 400;
+$bis = $annee  %  4 === 0;
 if ($annee = $bis ) {
-    echo 'cest bis';
+    echo $annee.  ' cest une année bissextile';
 }
 
 ?>

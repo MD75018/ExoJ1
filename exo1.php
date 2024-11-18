@@ -1,12 +1,12 @@
 <?php
 $nombre = readline('inscrvez un nombre : ');
 
-$impair = $nombre % 2  ;
-if ($nombre = $impair ) {
-    echo "c'est impair";
+$pair = $nombre % 2 === 0 ;
+if ($nombre = $pair ) {
+    echo "c'est pair";
 }
 else {
-    echo "c'est pair";
+    echo "c'est impair";
 }
 
 ?>
